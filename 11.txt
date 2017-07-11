@@ -10,3 +10,17 @@ cccc
 bbbb
 
 ddd
+
+
+从远程仓库中抓取与拉取数据：
+
+$ cd d:aaa
+$ cd 33.txt
+$ git init
+$ git remote add origin https:/github.com/linxianxiong/Blog.git
+$ git remote -v
+$ git fetch origin master
+$ ls
+$ git diff 33.txt
+$ git diff origin/mater
+$ git merge
